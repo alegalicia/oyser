@@ -22,7 +22,12 @@ body {
   height: 100%;
   position: relative;
 }
-
+#logo{
+  width: 8%;
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 5px;
+}
 a {
   color: #FA5555;
   -webkit-transition: 0.5s;
@@ -225,7 +230,7 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
   width: 24px;
   height: 24px;
-  background: rgba(0, 173, 181, 0.6);
+  
   left: -12px;
   margin-left: 0px;
   bottom: 16px;
@@ -235,8 +240,7 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 50%;
 }
 #fh5co-header .navbar-brand:before {
-  left: 0px;
-  background: rgba(250, 85, 85, 0.8);
+
 }
 #fh5co-header .navbar-brand > span {
   color: #FA5555;
