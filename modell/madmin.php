@@ -46,7 +46,6 @@ class funciones_BD
             //     echo 'Invalid password.';
             // }
         }
-
         $opcion = $_SESSION["id_perfil"];
 
         if ($num > 0) {
